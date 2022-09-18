@@ -1,0 +1,184 @@
+@media (min-width: 651px) and (max-width: 1024px) {
+    .pokedex-title {
+        margin-top: 0.5%;
+        max-width: 270px;
+    }
+
+    .pokedex {
+        margin-top: 0%;
+    }
+
+    .pokedex-image {
+        max-width: 597px;
+        width: 100%;
+    }
+
+    .button-audio {
+        top: 57.1%;
+    }
+
+    .button-light-style {
+        top: 82.5%;
+    }
+}
+
+@media (max-width: 650px){
+    .pokemon {
+        left: 50%;
+    }
+    
+    .pokedex-light-purple{
+        top: 8%;
+        left: 19%;
+
+    }
+
+    @keyframes pokedexLightPurple {       
+        50%{
+            box-shadow: 0 0 3em 3em rgba(177, 10, 255, 0.589);
+        }
+    }
+    
+    .pokedex-light-green{
+        top: 59%;
+        left: 26.5%;
+        width: 2%;
+        height: 2%;
+    }
+    .pokemon-data {
+        top: 57.8%;
+        right: 23%;
+        width: 70%;
+        height: 5%;
+        text-align: right;
+    } 
+        
+    .pokemon-name {
+        position: relative;
+        font-size: 14px;
+    }
+
+    .pokemon-number {
+        position: relative;
+        padding-left: 5.5%;
+        font-size: 14px;     
+    }
+    
+    .form {
+        left: 1.2%;
+        width: 93%;
+    }
+
+    .input-search {
+        padding: 2.5%;
+    }
+
+    .button-audio {
+        top: 76.5%;
+        left: 14.8%;
+        width: 30.1%;
+        padding: 2%;
+    }
+
+    .button-light-style {
+        top: 76.5%;;
+        right: 20.2%;
+        width: 30.1%;
+        padding: 2%;
+    }
+    
+    .buttons-arrow {
+        left: 51.9%;
+        bottom: 8.7%;
+        width: 65%;        
+    }    
+
+    .button-back {
+        padding: 3%;
+    }
+    
+    .button-next {
+        padding: 3%;
+    }
+
+    .pokemon-type-one {
+        display: none;
+    }
+    
+    .pokemon-type-two {
+        display: none;
+    }
+   
+    .pokemon-height {
+        display: none;
+    }
+
+    .pokemon-weight {
+        display: none;
+    }
+    
+    .pokemon-stats {
+        display: none;
+    }
+    
+    .pokedex-light-blue{
+        display:none;
+    }
+}
+
+@media (max-width: 450px){
+    .pokemon-name {
+        font-size: 12.5px;        
+    }
+
+    .pokemon-number {
+        font-size: 12.5px;
+        padding-left: 6.5%;
+    }
+
+    .form {
+        top: 66.7%;
+        left: 1.2%;
+    }
+
+    .input-search {
+        padding: 1.8%;
+    }
+
+    .button-audio {
+        padding: 1%;
+    }
+
+    .button-light-style {
+        top: 76.5%;;
+        right: 20.2%;
+        width: 30.1%;
+        padding: 1%;
+    }
+    
+    .buttons-arrow {
+        left: 51.9%;
+        bottom: 9.5%;
+        width: 65%;        
+    }    
+
+    .button-back {
+        padding: 2%;
+    }
+    
+    .button-next {
+        padding: 2%;
+    }
+}
+
+@media (max-width: 380px){
+    .pokemon-name {
+        font-size: 11.7px;        
+    }
+    
+    .pokemon-number {
+        font-size: 11.7px;
+        padding-left: 6%;
+    }
+}
+    

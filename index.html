@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Icons buttons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+
+    <link rel="icon" href="./src/images/pokebola.png">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+    <script defer src="./src/js/script.js"></script>
+    <title>Pokédex</title>
+</head>
+<body>
+  <header>
+    <img src="./src/images/pokedex-logo.png" class="pokedex-title" alt="pokédex title">
+  </header>
+
+  <main>
+    <div class="pokedex">
+      <div class="pokedex-light-purple" alt="pokédex purple light"> </div>
+
+      <img src="#" class="pokemon" alt="pokémon">
+
+      <div class="pokedex-light-green" alt="pokédex green light"> </div>
+
+      <div class="pokemon-audio"></div>
+
+      <button class="button button-audio " alt="pokémon audio button">
+        <i class="fa-solid fa-music"></i>
+      </button>
+      
+      <form class="form" alt="enter the pokemon's name or number">
+        <input
+          type="search"
+          class="input-search"
+          placeholder="name or number"
+          required
+        />
+      </form>
+
+      <div class="buttons-arrow">
+        <button class="button button-back" alt="back button">
+          <i class="fa-solid fa-play"></i>
+        </button>
+        <button class="button button-next" alt="next button">
+          <i class="fa-solid fa-play"></i>
+        </button>
+      </div>
+
+      <div class="pokemon-data" alt="pokémon data">
+        
+        <span class="pokemon-name" alt="pokémon name"></span>
+        <span class="pokemon-number" alt="pokémon number"></span>
+
+        <span class="pokemon-type-one" alt="pokémon type one"></span>
+        <span class="pokemon-type-two" alt="pokémon type two"></span>
+      
+        <span class="pokemon-height" alt="pokémon height"></span>
+        <span class="pokemon-weight" alt="pokémon weight"></span>
+             
+        <div class="pokemon-stats">
+          <h3 alt="pokémon stats">Stats</h3>
+          <ul>
+            <li class="pokemon-hp" alt="pokémon hp"></li>
+            <li class="pokemon-speed" alt="pokémon speed"></li>
+            <li class="pokemon-attack" alt="pokémon attack"></li>
+            <li class="pokemon-defense" alt="pokémon defense"></li>
+            <li class="pokemon-sp-atk" alt="pokémon special attack"></li>
+            <li class="pokemon-sp-def" alt="pokémon special defense"></li>
+          </ul>
+        </div>        
+      </div>
+      
+      <div class="pokedex-light-blue" alt="pokédex blue light"> </div>
+
+      <div>
+        <input type="checkbox" id="button-light" alt="light button"/>
+        <label class="button button-light-style" for="button-light" >
+          <i class="fas fa-lightbulb"></i>
+        </label>
+      </div>
+
+      <picture>
+        <source srcset="./src/images/pokedex.png" media="(min-width: 651px)" >
+        <img src="./src/images/pokedex-mobile.png" alt="pokédex" class="pokedex-image">
+      </picture>
+      </div>        
+    </main>
+</body>
+</html>
