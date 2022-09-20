@@ -7,10 +7,10 @@ Pokédex é uma enciclópedia virtual portátil da franquia Pokémon que contém
 O intuito da aplicação e representar esse sistema. <br/>
 A aplicação foi desenvolvida no canal Manual do Dev, do Rowalne.
 
-# <img src="https://static.thenounproject.com/png/1748472-200.png" width="30px"> Diferencial
+# <img src="https://user-images.githubusercontent.com/54649877/191276164-a6f5b03b-d9f3-4b70-8c83-973688a5c30a.png" width="30px"> Diferencial
 Pequenas alterações na aplicação:
 
-* Adicionado 2 imagens de pokédex, uma para o modo desktop(acima de 650px) outra para o modo mobile(abaixo de 650px), trazendo assim maior responsividade
+* Adicionado 2 imagens da pokédex, uma para o modo desktop(acima de 650px de largura), é outra para o modo mobile(abaixo de 650px de largura), trazendo assim maior responsividade.
 
 * Adicionado dados do pokémon: tipo, altura, peso, hp, velocidade, ataque, defesa, especial ataque, especial defesa, e possivel visualizar no modo desktop(acima de 650px).
 
