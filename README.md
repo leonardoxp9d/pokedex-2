@@ -12,7 +12,7 @@ Pequenas alterações na aplicação:
 
 * Adicionado 2 imagens da pokédex, uma para o modo desktop(acima de 650px de largura), é outra para o modo mobile(abaixo de 650px de largura), trazendo assim maior responsividade.
 
-* Adicionado dados do pokémon: tipo, altura, peso, hp, velocidade, ataque, defesa, especial ataque, especial defesa, e possivel visualizar no modo desktop(acima de 650px).
+* Adicionado dados do pokémon: tipo, altura, peso, hp, velocidade, ataque, defesa, especial ataque, especial defesa, e possivel visualizar no modo desktop(acima de 650px de largura).
 
 * Adicionado os sons dos pokémons que são mostrados nos jogos da franquia, por enquanto foi adicionado até o 251.
 
